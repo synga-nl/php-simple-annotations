@@ -8,7 +8,7 @@ class ReaderException extends \Exception
 
 class Reader
 {
-	private $rawDocBlock;
+	protected $rawDocBlock;
 	private $parameters;
 	private $keyPattern = "[A-z0-9\_\-]+";
 	private $endPattern = "[ ]*(?:@|\r\n|\n)";
